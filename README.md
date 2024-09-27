@@ -1,11 +1,36 @@
 # W-HGAD
+
 Official implementation of W-HGAD: a Wasserstein-based heterogeneous graph neural network for uncertainty-aware anomaly detection on graphs.
 
+## About
 
-## Coming Soon
+This repository contains the implementation of the W-HGAD model as described in our paper. W-HGAD is designed for uncertainty-aware anomaly detection on heterogeneous graphs, with a focus on the PolitiFact dataset.
 
-We are currently in the process of organizing and preparing our codebase and datasets for public release. The full implementation of W-HGAD, along with the datasets used in our experiments, will be made available in this repository soon.
+## Contents
 
-Stay tuned for updates! We appreciate your interest and patience.
+- `data/`: Directory containing the PolitiFact dataset
+- `W-HGAD_PolitiFact.py`: Python script implementing W-HGAD for the PolitiFact dataset
 
-[Watch this repository](https://docs.github.com/en/github/getting-started-with-github/be-social#watching-a-repository) to be notified when we publish our code and data.
+## Key Dependencies
+
+- PyTorch
+- torch_geometric
+- numpy
+- scikit-learn
+
+## Usage
+
+To run the W-HGAD model on the PolitiFact dataset:
+
+```
+python W-HGAD_PolitiFact.py
+```
+
+Ensure all dependencies are installed before running the script.
+
+
+## Contact
+
+For questions or issues, please open an issue in this repository.
+
+Thank you for your interest in W-HGAD!
